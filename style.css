@@ -206,4 +206,23 @@ section {
 
 footer {
     margin-top:80px  ;
+
+}
+
+
+@media (max-width: 768px) {
+
+  .container-1 {
+    flex-direction: column;
+  }
+
+  .container3 {
+    flex-direction: column;
+  }
+
+  .container5 {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
